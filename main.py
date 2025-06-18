@@ -6,6 +6,13 @@ import hashlib
 import networkx as nx
 import matplotlib.pyplot as plt
 import tempfile
+import hashlib
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+import networkx as nx  # Added for Knowledge Graph
 import os
 from PIL import Image
 
@@ -95,7 +102,7 @@ if st.button("Generate Graph"):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--no-sandbox")
-        driver = webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         driver.get(url)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         driver.quit()
