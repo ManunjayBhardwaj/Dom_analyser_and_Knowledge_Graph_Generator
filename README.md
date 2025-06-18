@@ -20,7 +20,8 @@ Given a URL (e.g., [Trivago Wikipedia](https://en.wikipedia.org/wiki/Trivago)), 
 ---
 ## Sample Output 
 
-<img width="1280" alt="Screenshot 2025-06-10 at 1 43 39 PM" src="https://github.com/user-attachments/assets/7f3ce3f0-1c37-4311-947a-46b0a1455574" />
+<img width="940" alt="Screenshot 2025-06-18 at 4 57 39 PM" src="https://github.com/user-attachments/assets/4d5bad36-b0b5-4f39-829d-5bafb0bd80fc" />
+
 
 ---
 
