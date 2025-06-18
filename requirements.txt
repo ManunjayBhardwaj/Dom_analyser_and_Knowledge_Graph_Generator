@@ -4,3 +4,4 @@ selenium
 matplotlib
 networkx
 pillow
+webdriver-manager
